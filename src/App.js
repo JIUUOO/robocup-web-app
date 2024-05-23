@@ -13,8 +13,8 @@ function App() {
       <div className="header-padding"></div>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/committee" element={<Committee />} />
+        <Route path="/association/about" element={<About />} />
+        <Route path="/association/committee" element={<Committee />} />
       </Routes>
       <Footer />
     </div>

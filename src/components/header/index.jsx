@@ -7,19 +7,21 @@ export default function Header() {
   return (
     <Navbar expand="lg" className="navbar bg-body-tertiary shadow" fixed="top">
       <Container>
-        <Navbar.Brand href="/robocup-web-app">
-          <Image src={rckaLogo} className="logo"></Image>
+        <Navbar.Brand>
+          <NavLink to="/">
+            <Image src={rckaLogo} className="logo"></Image>
+          </NavLink>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav>
             <NavDropdown title="한국로보컵협회" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/about">
-                <NavLink to="/about">소개</NavLink>
+              <NavDropdown.Item as={NavLink} to="/association/about">
+                소개
               </NavDropdown.Item>
-              <NavDropdown.Item href="/committee">
-                <NavLink to="/committee">위원회</NavLink>
+              <NavDropdown.Item as={NavLink} to="/association/committee">
+                위원회
               </NavDropdown.Item>
               <NavDropdown.Item>역사</NavDropdown.Item>
             </NavDropdown>
