@@ -6,9 +6,9 @@ export default function Committee() {
   return (
     <div>
       <Container>
-        <h1 className="fs-1 mb-5">한국로보컵협회 위원회를 소개합니다.</h1>
+        <h1 className="fs-1 mb-4">한국로보컵협회 위원회를 소개합니다.</h1>
         <div className="table-responsive">
-          <table className="table">
+          <table className="table table-striped table-hover border">
             <thead>
               <tr>
                 <th scope="col">#</th>

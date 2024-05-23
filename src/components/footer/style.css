@@ -5,3 +5,13 @@ img {
 p {
   font-size: 0.7rem;
 }
+
+@media (max-width: 576px) {
+  .institutes {
+    width: 15rem;
+  }
+
+  img {
+    max-height: 2.4rem;
+  }
+}

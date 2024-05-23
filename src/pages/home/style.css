@@ -1,8 +1,3 @@
-.video {
-  display: flex;
-  justify-content: center;
-}
-
-.video iframe {
-  aspect-ratio: 16 / 9;
+.title {
+  min-height: calc(100vh - 5.5rem);
 }
