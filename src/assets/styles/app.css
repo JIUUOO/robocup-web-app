@@ -3,3 +3,7 @@ body {
   padding: 0;
   font-family: "Noto Sans KR", sans-serif;
 }
+
+.header-padding {
+  padding-top: 4.3rem;
+}

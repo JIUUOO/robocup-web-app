@@ -6,12 +6,12 @@ export default function Title() {
     <div className="title">
       <Row className="d-flex justify-content-between my-3">
         <Col xs={12} lg={6}>
-          <span className="fs-4">RoboCup Korea Association</span>
-          <h1 className="fw-bolder m-0">한국로보컵협회</h1>
+          <span className="fs-3">RoboCup Korea Association</span>
+          <h1 className="display-3 fw-bolder m-0">한국로보컵협회</h1>
         </Col>
         <Col xs={12} lg={6} className="text-xs-start text-lg-end">
-          <h2 className="m-0">RoboCup Junior</h2>
-          <h2 className="m-0">RoboCup</h2>
+          <h2 className="display-5 fw-semibold m-0">RoboCup Junior</h2>
+          <h2 className="display-5 fw-semibold m-0">RoboCup</h2>
         </Col>
       </Row>
       <Row className="video mt-2">

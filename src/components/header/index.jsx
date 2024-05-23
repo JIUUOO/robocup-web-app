@@ -5,20 +5,18 @@ import { Container, Nav, Navbar, NavDropdown, Image } from "react-bootstrap";
 
 export default function Header() {
   return (
-    <Navbar expand="lg" className="navbar bg-body-tertiary shadow fixed-top">
+    <Navbar expand="lg" className="navbar bg-body-tertiary shadow" fixed="top">
       <Container>
         <Navbar.Brand href="/">
-          {/* <NavLink to={"/"}> */}
           <Image src={rckaLogo} className="logo"></Image>
-          {/* </NavLink> */}
         </Navbar.Brand>
+
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav>
             <NavDropdown title="한국로보컵협회" id="basic-nav-dropdown">
               <NavDropdown.Item href="/association/about">
                 소개
-                {/* <NavLink to={"/association/about"}>소개</NavLink> */}
               </NavDropdown.Item>
               <NavDropdown.Item href="/association/committee">
                 위원회
