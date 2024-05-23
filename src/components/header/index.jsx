@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <Navbar
       collapseOnSelect
-      expand="lg"
+      expand="md"
       className="navbar bg-body-tertiary shadow"
       fixed="top"
     >
