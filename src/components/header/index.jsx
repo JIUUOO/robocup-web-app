@@ -15,10 +15,10 @@ export default function Header() {
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav>
             <NavDropdown title="한국로보컵협회" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/robocup-web-app/association/about">
+              <NavDropdown.Item href="/robocup-web-app/about">
                 소개
               </NavDropdown.Item>
-              <NavDropdown.Item href="/robocup-web-app/association/committee">
+              <NavDropdown.Item href="/robocup-web-app/committee">
                 위원회
               </NavDropdown.Item>
               <NavDropdown.Item>역사</NavDropdown.Item>

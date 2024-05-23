@@ -13,11 +13,8 @@ function App() {
       <div className="header-padding"></div>
       <Routes>
         <Route path="/robocup-web-app" element={<Home />} />
-        <Route path="/robocup-web-app/association/about" element={<About />} />
-        <Route
-          path="/robocup-web-app/association/committee"
-          element={<Committee />}
-        />
+        <Route path="/robocup-web-app/about" element={<About />} />
+        <Route path="/robocup-web-app/committee" element={<Committee />} />
       </Routes>
       <Footer />
     </div>
