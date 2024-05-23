@@ -1,6 +1,6 @@
 .navbar {
   padding: 0;
-  height: 4rem;
+  min-height: 4rem;
 }
 
 .navbar-nav {
