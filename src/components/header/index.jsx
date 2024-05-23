@@ -5,7 +5,7 @@ import { Container, Nav, Navbar, NavDropdown, Image } from "react-bootstrap";
 
 export default function Header() {
   return (
-    <Navbar expand="lg" className="navbar bg-body-tertiary shadow">
+    <Navbar expand="lg" className="navbar bg-body-tertiary shadow fixed-top">
       <Container>
         <Navbar.Brand href="/">
           {/* <NavLink to={"/"}> */}
