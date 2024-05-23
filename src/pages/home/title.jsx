@@ -4,7 +4,7 @@ import "./style.css";
 export default function Title() {
   return (
     <div className="title">
-      <Row className="d-flex justify-content-between my-3">
+      <Row className="d-flex justify-content-between">
         <Col xs={12} lg={6}>
           <span className="fs-3">RoboCup Korea Association</span>
           <h1 className="display-3 fw-bolder m-0">한국로보컵협회</h1>
@@ -20,10 +20,10 @@ export default function Title() {
           height="500"
           src="https://www.youtube.com/embed/QB5dvHHnSMk"
           title="RoboCup RCAP Pyeongchang 2023"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
         ></iframe>
       </Row>
     </div>

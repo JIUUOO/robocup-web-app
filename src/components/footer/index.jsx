@@ -6,7 +6,7 @@ import "./style.css";
 
 export default function Footer() {
   return (
-    <Container className="pt-5">
+    <Container className="mt-5">
       <Row className="">
         <Col
           md={4}
@@ -29,13 +29,13 @@ export default function Footer() {
       </Row>
       <Row className="py-3 py-md-5 text-center text-md-end">
         <p>
-          <span class="d-block">
+          <span className="d-block">
             <strong>한국로보컵협회</strong> | Tel : 070-4247-7485
           </span>
-          <span class="d-block">
+          <span className="d-block">
             주소: 서울시 서초구 서운로 13 중앙로얄 오피스텔 1308
           </span>
-          <span class="d-block pt-4">
+          <span className="d-block pt-4">
             Copyright © 한국로보컵협회. All rights reserved.
           </span>
         </p>
