@@ -3,26 +3,38 @@ import "./style.css";
 import { NavLink } from "react-router-dom";
 import { Container, Nav, Navbar, NavDropdown, Image } from "react-bootstrap";
 
-export default function Navbars() {
+export default function Header() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary shadow">
+    <Navbar expand="lg" className="navbar bg-body-tertiary shadow">
       <Container>
-        <Navbar.Brand>
-          <NavLink to={"/"}>
-            <Image src={rckaLogo} className="logo"></Image>
-          </NavLink>
+        <Navbar.Brand href="/">
+          {/* <NavLink to={"/"}> */}
+          <Image src={rckaLogo} className="logo"></Image>
+          {/* </NavLink> */}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+          <Nav>
             <NavDropdown title="한국로보컵협회" id="basic-nav-dropdown">
-              <NavDropdown.Item>협회 소개</NavDropdown.Item>
+              <NavDropdown.Item href="/association/about">
+                소개
+                {/* <NavLink to={"/association/about"}>소개</NavLink> */}
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/association/committee">
+                위원회
+              </NavDropdown.Item>
               <NavDropdown.Item>역사</NavDropdown.Item>
-              <NavDropdown.Item>후원 안내</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item>Separated link</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#link">Link</Nav.Link>
+            <NavDropdown title="로보컵 리그" id="basic-nav-dropdown">
+              <NavDropdown.Item>Soccer</NavDropdown.Item>
+              <NavDropdown.Item>Rescue</NavDropdown.Item>
+            </NavDropdown>
+            <NavDropdown title="대회 소개" id="basic-nav-dropdown">
+              <NavDropdown.Item>일정</NavDropdown.Item>
+              <NavDropdown.Item>장소</NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link>공지사항</Nav.Link>
+            <Nav.Link>후원문의</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

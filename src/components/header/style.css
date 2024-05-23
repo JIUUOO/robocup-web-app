@@ -1,3 +1,12 @@
 .logo {
-  height: 3.7rem;
+  height: 3.5rem;
+}
+
+.navbar {
+  padding: 0;
+  height: 4.1rem;
+}
+
+.dropdown-menu {
+  min-width: 5.5rem;
 }
