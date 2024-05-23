@@ -1,13 +1,12 @@
-import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/navbar";
+import Navbars from "./components/header";
 import Home from "./pages/home";
 import About from "./pages/rcka/about";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Navbars />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/association/about" element={<About />} />
