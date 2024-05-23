@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/robocup-web-app/static/css/main.8119adda.css",
+    "main.js": "/robocup-web-app/static/js/main.94af4195.js",
+    "static/js/453.92ad2d4b.chunk.js": "/robocup-web-app/static/js/453.92ad2d4b.chunk.js",
+    "static/media/robocup-korea-association.png": "/robocup-web-app/static/media/robocup-korea-association.040bea43245905792f65.png",
+    "index.html": "/robocup-web-app/index.html",
+    "main.8119adda.css.map": "/robocup-web-app/static/css/main.8119adda.css.map",
+    "main.94af4195.js.map": "/robocup-web-app/static/js/main.94af4195.js.map",
+    "453.92ad2d4b.chunk.js.map": "/robocup-web-app/static/js/453.92ad2d4b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8119adda.css",
+    "static/js/main.94af4195.js"
+  ]
+}
