@@ -37,7 +37,7 @@ export default function Header() {
               <NavDropdown.Item>Soccer</NavDropdown.Item>
               <NavDropdown.Item>Rescue</NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="로보컵 대회" id="basic-nav-dropdown">
+            <NavDropdown title="로보컵 리그" id="basic-nav-dropdown">
               <NavDropdown.Item>일정</NavDropdown.Item>
               <NavDropdown.Item>장소</NavDropdown.Item>
             </NavDropdown>

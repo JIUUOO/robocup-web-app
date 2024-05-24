@@ -4,7 +4,7 @@ import "./style.css";
 export default function Intro() {
   return (
     <Container className="pt-5">
-      <Accordion flush>
+      <Accordion>
         <Accordion.Item eventKey="0">
           <Accordion.Header>한국로보컵협회는 어떤 단체인가요?</Accordion.Header>
           <Accordion.Body className="text-start">
@@ -12,6 +12,20 @@ export default function Intro() {
               &nbsp;한국로보컵협회(RCKA) 홈페이지를 방문해주신 여러분께 깊이
               감사드립니다.
             </p>
+            <p className="fs-6 d-block">
+              &nbsp;사단법인 한국로보컵협회(이하 RCKA)는 로봇을 연구하는
+              학생들을 위해 국가적 및 국제적 로봇 이벤트인 로보컵(Robocup)
+              리그를 주최하는 프로젝트 중심의 교육 증진 운동입니다.
+            </p>
+
+            <p className="fs-6 d-block">
+              &nbsp;여러분의 끊임없는 격려와 관심으로 성원해주시길 부탁드립니다.
+            </p>
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="1">
+          <Accordion.Header>로보컵은 어떤 행사인가요?</Accordion.Header>
+          <Accordion.Body className="text-start">
             <p className="fs-6 d-block">
               &nbsp;로보컵 리그의 설립목적은 양질의 다양한 로봇교육 제공에
               있습니다. RCKA는 참된 로봇교육에 뜻을 같이 하는 교육관련 종사자와
@@ -26,18 +40,6 @@ export default function Intro() {
               방법을 제시합니다. RCKA는 다양한 참가자들이 우수한 로봇개발이라는
               공동의 목표를 달성할 수 있는 팀으로 함께 연구할 수 있는 기회를
               제공합니다.
-            </p>
-            <p className="fs-6 d-block">
-              &nbsp;여러분의 끊임없는 격려와 관심으로 성원해주시길 부탁드립니다.
-            </p>
-          </Accordion.Body>
-        </Accordion.Item>
-        <Accordion.Item eventKey="1">
-          <Accordion.Header>로보컵은 어떤 행사인가요?</Accordion.Header>
-          <Accordion.Body className="text-start">
-            <p className="fs-6 d-block">
-              &nbsp; 로보컵(RoboCup)은 초등학생부터 대학생까지 로봇을 연구하는
-              학생들을 위해 매년 열리는 로봇대회입니다.
             </p>
           </Accordion.Body>
         </Accordion.Item>
