@@ -1,10 +1,11 @@
 .navbar {
   padding: 0;
   min-height: 4rem;
+  background-color: white;
 }
 
 .navbar-nav {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .logo {

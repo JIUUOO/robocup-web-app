@@ -5,12 +5,7 @@ import { Container, Nav, Navbar, NavDropdown, Image } from "react-bootstrap";
 
 export default function Header() {
   return (
-    <Navbar
-      collapseOnSelect
-      expand="md"
-      className="navbar bg-body-tertiary shadow"
-      fixed="top"
-    >
+    <Navbar collapseOnSelect expand="md" className="navbar shadow" fixed="top">
       <Container>
         <Navbar.Brand>
           <NavLink to="/">
@@ -20,7 +15,7 @@ export default function Header() {
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-          <Nav>
+          <Nav className="text-center">
             <NavDropdown title="한국로보컵협회" id="basic-nav-dropdown">
               <NavDropdown.Item
                 as={NavLink}
