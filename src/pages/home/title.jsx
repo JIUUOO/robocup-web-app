@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 export default function Title() {
   return (
     // absolute wrapper
-    <div className="title-wrapper position-absolute pt-0">
+    <div className="title-wrapper position-absolute pt-0 w-100">
       <Container>
         <Row className="d-flex justify-content-lg-between">
           <Col xs={12} lg={6} className="">

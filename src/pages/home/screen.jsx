@@ -4,7 +4,7 @@ import "./style.css";
 export default function Screen() {
   return (
     <Container>
-      <div className="title-background"></div>
+      <div className="title-background position-absolute"></div>
       <div>
         {/* <div className="pt-3 d-none">
           <p className="fs-4 fw-light">
@@ -18,9 +18,9 @@ export default function Screen() {
             </span>
           </p>
         </div> */}
-        <div className="video-container">
+        <div className="video-container position-absolute d-flex justify-content-center align-items-center">
           <iframe
-            className="video"
+            className="video-content position-absolute"
             src="https://www.youtube.com/embed/QB5dvHHnSMk?si=H8vYmersBfckFq5m&autoplay=1&mute=1&loop=1&controls=0&color=white&modestbranding=0&rel=0&playsinline=1&enablejsapi=18&playlist=QB5dvHHnSMk"
             title="RoboCup RCAP Pyeongchang 2023"
             allow="autoplay;"
