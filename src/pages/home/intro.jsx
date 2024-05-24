@@ -1,8 +1,9 @@
 import { Container, Accordion } from "react-bootstrap";
+import "./style.css";
 
 export default function Intro() {
   return (
-    <Container className="mt-5">
+    <Container className="pt-5">
       <Accordion flush>
         <Accordion.Item eventKey="0">
           <Accordion.Header>한국로보컵협회는 어떤 단체인가요?</Accordion.Header>

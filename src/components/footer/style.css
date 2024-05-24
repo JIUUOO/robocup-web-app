@@ -6,12 +6,12 @@ p {
   font-size: 0.7rem;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .institutes {
-    width: 15rem;
+    width: 230px;
   }
 
   img {
-    max-height: 2.4rem;
+    max-height: 2.2rem;
   }
 }
