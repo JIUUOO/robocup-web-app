@@ -6,7 +6,7 @@ p {
   font-size: 0.7rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .institutes {
     width: 230px;
   }
