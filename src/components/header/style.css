@@ -1,22 +1,31 @@
+/* overriding */
 .navbar {
   padding: 0;
-  min-height: 4rem;
   background-color: white;
 }
 
+/* overriding */
 .navbar-nav {
   font-size: 1rem;
 }
 
-.logo {
-  max-height: 3.8rem;
-}
-
+/* overriding */
 .dropdown-menu {
   text-align: center;
   min-width: 5.5rem;
 }
 
+/* overriding */
 .dropdown-item {
   font-weight: 500;
+}
+
+.logo {
+  max-height: 4rem;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    max-height: 3.5rem;
+  }
 }

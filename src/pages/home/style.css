@@ -1,16 +1,10 @@
-.header-padding {
-  margin-top: 4rem !important;
-}
-
-.title-text {
-  position: absolute;
-  width: 100vw;
+.title-wrapper {
+  min-width: 100%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
 
   padding: 1rem;
-  margin: 0;
   color: black;
 }
 
@@ -29,8 +23,8 @@
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 1) 15%,
-    rgba(255, 255, 255, 0.4) 30%,
+    rgba(255, 255, 255, 0.9) 15%,
+    rgba(255, 255, 255, 0.2) 30%,
     rgba(255, 255, 255, 0.1) 40%,
     rgba(255, 255, 255, 0) 100%
   );
@@ -67,10 +61,11 @@
   user-select: none;
   pointer-events: none;
 
+  width: calc(100vh * 16 / 9);
   height: calc(100vh - 4rem);
-  width: calc(100vh * 16 / 9); /* 100 * 16 / 9 */
+
   min-width: 100%;
-  min-height: 56.25vw; /* 100 * 9 / 16 */
+  min-height: calc(100vw * 9 / 16);
 }
 
 @media (max-width: 768px) {
