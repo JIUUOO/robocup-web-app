@@ -36,6 +36,9 @@ export default function Header() {
             <NavDropdown title="로보컵 종목" id="basic-nav-dropdown">
               <NavDropdown.Item>Soccer</NavDropdown.Item>
               <NavDropdown.Item>Rescue</NavDropdown.Item>
+              <NavDropdown.Item>CoSpace</NavDropdown.Item>
+              <NavDropdown.Item>OnStage</NavDropdown.Item>
+              <NavDropdown.Item>Spike</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="로보컵 리그" id="basic-nav-dropdown">
               <NavDropdown.Item>일정</NavDropdown.Item>
