@@ -31,7 +31,13 @@ export default function Header() {
               >
                 위원회
               </NavDropdown.Item>
-              <NavDropdown.Item>역사</NavDropdown.Item>
+              <NavDropdown.Item
+                as={NavLink}
+                to="/association/archive"
+                href="/association/archive"
+              >
+                역사
+              </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="로보컵 종목" id="basic-nav-dropdown">
               <NavDropdown.Item>Soccer</NavDropdown.Item>
