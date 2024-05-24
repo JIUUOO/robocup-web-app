@@ -5,7 +5,7 @@ export default function Title() {
   return (
     <Container>
       <Row className="title-text d-flex justify-content-lg-between">
-        <Col xs={12} lg={6}>
+        <Col xs={12} lg={6} className="">
           <span className="fs-3">RoboCup Korea Association</span>
           <h1 className="display-3 fw-bolder m-0">한국로보컵협회</h1>
         </Col>
@@ -14,6 +14,7 @@ export default function Title() {
           <h2 className="display-5 fw-semibold m-0">RoboCup</h2>
         </Col>
       </Row>
+      <div className="title-background"></div>
       <div>
         {/* <div className="pt-3 d-none">
           <p className="fs-4 fw-light">
@@ -30,7 +31,7 @@ export default function Title() {
         <div className="video-container">
           <iframe
             className="video"
-            src="https://www.youtube.com/embed/QB5dvHHnSMk?si=H8vYmersBfckFq5m&autoplay=0&mute=1&loop=1&controls=0&color=white&modestbranding=0&rel=0&playsinline=1&enablejsapi=18&playlist=QB5dvHHnSMk"
+            src="https://www.youtube.com/embed/QB5dvHHnSMk?si=H8vYmersBfckFq5m&autoplay=1&mute=1&loop=1&controls=0&color=white&modestbranding=0&rel=0&playsinline=1&enablejsapi=18&playlist=QB5dvHHnSMk"
             title="RoboCup RCAP Pyeongchang 2023"
             allow="autoplay;"
             referrerPolicy="strict-origin-when-cross-origin"
