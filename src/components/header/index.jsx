@@ -56,15 +56,23 @@ export default function Header() {
               <NavDropdown.Item>일정</NavDropdown.Item>
               <NavDropdown.Item>장소</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item as={NavLink}>
-                <a href="https://junior.robocup.org/" target="_blank">
-                  RoboCup Junior
-                </a>
+              <NavDropdown.Item
+                as={NavLink}
+                to="https://junior.robocup.org/"
+                href="https://junior.robocup.org/"
+                target="_blank"
+                style={{ fontSize: "0.9rem" }}
+              >
+                RoboCup Junior
               </NavDropdown.Item>
-              <NavDropdown.Item>
-                <a href="https://www.robocup.org/" target="_blank">
-                  RoboCup
-                </a>
+              <NavDropdown.Item
+                as={NavLink}
+                to="https://www.robocup.org/"
+                href="https://www.robocup.org/"
+                target="_blank"
+                style={{ fontSize: "0.9rem" }}
+              >
+                RoboCup
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link>공지사항</Nav.Link>
