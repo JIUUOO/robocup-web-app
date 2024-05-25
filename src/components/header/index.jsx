@@ -47,9 +47,27 @@ export default function Header() {
               >
                 Soccer
               </NavDropdown.Item>
-              <NavDropdown.Item>Rescue</NavDropdown.Item>
-              <NavDropdown.Item>CoSpace</NavDropdown.Item>
-              <NavDropdown.Item>OnStage</NavDropdown.Item>
+              <NavDropdown.Item
+                as={NavLink}
+                to="/games/rescue"
+                href="/games/rescue"
+              >
+                Rescue
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                as={NavLink}
+                to="/games/cospace"
+                href="/games/cospace"
+              >
+                CoSpace
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                as={NavLink}
+                to="/games/onstage"
+                href="/games/onstage"
+              >
+                OnStage
+              </NavDropdown.Item>
               <NavDropdown.Item>Spike</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="로보컵 리그" id="basic-nav-dropdown">
