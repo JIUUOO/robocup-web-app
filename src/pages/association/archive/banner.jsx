@@ -3,8 +3,8 @@ import "./style.css";
 
 export default function Banner({ src }) {
   return (
-    <Row className="">
-      <Image className="archive-banner-content" src={src} />
+    <Row className="d-flex justify-content-center align-items-center">
+      <Image className="archive-banner-content py-1" src={src} rounded />
     </Row>
   );
 }

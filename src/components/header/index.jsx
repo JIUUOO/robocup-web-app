@@ -40,7 +40,13 @@ export default function Header() {
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="로보컵 종목" id="basic-nav-dropdown">
-              <NavDropdown.Item>Soccer</NavDropdown.Item>
+              <NavDropdown.Item
+                as={NavLink}
+                to="/games/soccer"
+                href="/games/soccer"
+              >
+                Soccer
+              </NavDropdown.Item>
               <NavDropdown.Item>Rescue</NavDropdown.Item>
               <NavDropdown.Item>CoSpace</NavDropdown.Item>
               <NavDropdown.Item>OnStage</NavDropdown.Item>
@@ -49,6 +55,17 @@ export default function Header() {
             <NavDropdown title="로보컵 리그" id="basic-nav-dropdown">
               <NavDropdown.Item>일정</NavDropdown.Item>
               <NavDropdown.Item>장소</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item as={NavLink}>
+                <a href="https://junior.robocup.org/" target="_blank">
+                  RoboCup Junior
+                </a>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <a href="https://www.robocup.org/" target="_blank">
+                  RoboCup
+                </a>
+              </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link>공지사항</Nav.Link>
             <Nav.Link>후원문의</Nav.Link>
