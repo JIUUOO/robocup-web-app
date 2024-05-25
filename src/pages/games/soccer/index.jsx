@@ -3,6 +3,8 @@ import "./style.css";
 import "../style.css";
 import soccerLW1 from "../../../assets/images/leagues/native/soccer-lw-1.jpg";
 import soccerLW2 from "../../../assets/images/leagues/native/soccer-lw-2.JPG";
+import soccerRule from "../../../assets/images/RCJK2024_soccer_LW_Open_Rule.pdf";
+import { NavLink } from "react-router-dom";
 
 export default function Soccer() {
   return (
@@ -19,21 +21,30 @@ export default function Soccer() {
         </span>
         <span className="d-block">&nbsp;단, 크기와 무게 제한이 있습니다.</span>
       </p>
-      <h2 className="fw-semibold">Soccer LightWeight</h2>
-      <p className="fs-5">&nbsp;적외선 공을 사용하여 경기가 진행됩니다.</p>
-      <Row className="pt-3">
-        <Col lg={6} className="pb-2">
+      <Row>
+        <Col lg={6}>
+          <h2 className="fw-semibold">Soccer LightWeight</h2>
+          <p className="fs-5">&nbsp;적외선 공을 사용하여 경기가 진행됩니다.</p>
           <Image className="soccer-image rounded" src={soccerLW1} />
+          <div className="d-flex justify-content-center">
+            <Button variant="light" className="border my-3">
+              <NavLink to={soccerRule}>규정 살펴보기</NavLink>
+            </Button>
+          </div>
         </Col>
-        <Col lg={6} className="pb-2">
+        <Col lg={6}>
+          <h2 className="fw-semibold">Soccer Open</h2>
+          <p className="fs-5">
+            &nbsp;주황색 플라스틱 공을 사용하여 경기가 진행됩니다.
+          </p>
           <Image className="soccer-image rounded" src={soccerLW2} />
+          <div className="d-flex justify-content-center">
+            <Button variant="light" className="border my-3">
+              <NavLink to={soccerRule}>규정 살펴보기</NavLink>
+            </Button>
+          </div>
         </Col>
       </Row>
-      <div>
-        <Button variant="dark" className="border">
-          규정 살펴보기
-        </Button>
-      </div>
     </Container>
   );
 }
