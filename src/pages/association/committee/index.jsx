@@ -8,7 +8,7 @@ export default function Committee() {
       <Container>
         <h1 className="fs-1 mb-4">한국로보컵협회 위원회를 소개합니다.</h1>
         <div className="table-responsive">
-          <table className="table table-striped table-hover border">
+          <table className="table border align-middle">
             <thead>
               <tr>
                 <th scope="col">#</th>
@@ -18,7 +18,7 @@ export default function Committee() {
                 <th scope="col">Position</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody className="table-group-divider">
               {tableData.map((row) => {
                 return (
                   <TableRow
