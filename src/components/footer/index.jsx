@@ -30,20 +30,18 @@ export default function Footer() {
         </Row>
       </Container>
       <div className="bg-dark">
-        <Container className="p-0">
-          <Row className="copyright mt-3 py-3 py-md-4 text-center text-md-end text-white">
-            <p>
-              <span className="d-block">
-                <strong>한국로보컵협회</strong> | Tel : 070-4247-7485
-              </span>
-              <span className="d-block">
-                주소: 서울시 서초구 서운로 13 중앙로얄 오피스텔 1308
-              </span>
-              <span className="d-block pt-2">
-                Copyright © 한국로보컵협회. All rights reserved.
-              </span>
-            </p>
-          </Row>
+        <Container className="p-0 mt-3 py-3 py-md-4 text-center text-md-end text-white">
+          <p>
+            <span className="d-block">
+              <strong>한국로보컵협회</strong> | Tel : 070-4247-7485
+            </span>
+            <span className="d-block">
+              주소: 서울시 서초구 서운로 13 중앙로얄 오피스텔 1308
+            </span>
+            <span className="d-block pt-2">
+              Copyright © 한국로보컵협회. All rights reserved.
+            </span>
+          </p>
         </Container>
       </div>
     </div>
