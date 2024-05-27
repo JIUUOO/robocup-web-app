@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/robocup-web-app/static/css/main.69331cdb.css",
-    "main.js": "/robocup-web-app/static/js/main.d928270c.js",
+    "main.js": "/robocup-web-app/static/js/main.906999ed.js",
     "static/js/453.92ad2d4b.chunk.js": "/robocup-web-app/static/js/453.92ad2d4b.chunk.js",
     "static/media/soccer-lw-2.JPG": "/robocup-web-app/static/media/soccer-lw-2.d2d50089f268fe19f403.JPG",
     "static/media/soccer-lw-1.jpg": "/robocup-web-app/static/media/soccer-lw-1.4938db9d286d024dfd1d.jpg",
-    "static/media/RCJK2024_soccer_LW_Open_Rule.pdf": "/robocup-web-app/static/media/RCJK2024_soccer_LW_Open_Rule.6bcccb0f4c026d0cf959.pdf",
+    "static/media/RCJK2024_SoccerLW_Open_RuleKR.pdf": "/robocup-web-app/static/media/RCJK2024_SoccerLW_Open_RuleKR.6bcccb0f4c026d0cf959.pdf",
     "static/media/rcap-2023-1.png": "/robocup-web-app/static/media/rcap-2023-1.eb81b31b1de503ae07a1.png",
     "static/media/misintry-of-trade-industry-and-energy.jpg": "/robocup-web-app/static/media/misintry-of-trade-industry-and-energy.47e7622bfeff2d4fa9bc.jpg",
     "static/media/rc-open-2024.png": "/robocup-web-app/static/media/rc-open-2024.377d53d5fd4bc4536e4b.png",
@@ -16,11 +16,11 @@
     "static/media/robocup-korea-association.png": "/robocup-web-app/static/media/robocup-korea-association.040bea43245905792f65.png",
     "index.html": "/robocup-web-app/index.html",
     "main.69331cdb.css.map": "/robocup-web-app/static/css/main.69331cdb.css.map",
-    "main.d928270c.js.map": "/robocup-web-app/static/js/main.d928270c.js.map",
+    "main.906999ed.js.map": "/robocup-web-app/static/js/main.906999ed.js.map",
     "453.92ad2d4b.chunk.js.map": "/robocup-web-app/static/js/453.92ad2d4b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69331cdb.css",
-    "static/js/main.d928270c.js"
+    "static/js/main.906999ed.js"
   ]
 }
