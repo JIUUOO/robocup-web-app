@@ -9,7 +9,6 @@ export default function About() {
         <div className="d-flex justify-content-center align-items-center">
           <iframe
             className="about-video"
-            width="100%"
             src="https://www.youtube.com/embed/OoY9wlojwzQ"
             title="국제 로봇월드컵 개막…“2050년 사람과도 경기할 것” / KBS  2023.12.08."
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
