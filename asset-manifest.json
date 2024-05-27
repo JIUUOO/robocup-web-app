@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/robocup-web-app/static/css/main.69331cdb.css",
-    "main.js": "/robocup-web-app/static/js/main.906999ed.js",
+    "main.js": "/robocup-web-app/static/js/main.b083da9f.js",
     "static/js/453.92ad2d4b.chunk.js": "/robocup-web-app/static/js/453.92ad2d4b.chunk.js",
     "static/media/soccer-lw-2.JPG": "/robocup-web-app/static/media/soccer-lw-2.d2d50089f268fe19f403.JPG",
     "static/media/soccer-lw-1.jpg": "/robocup-web-app/static/media/soccer-lw-1.4938db9d286d024dfd1d.jpg",
@@ -16,11 +16,11 @@
     "static/media/robocup-korea-association.png": "/robocup-web-app/static/media/robocup-korea-association.040bea43245905792f65.png",
     "index.html": "/robocup-web-app/index.html",
     "main.69331cdb.css.map": "/robocup-web-app/static/css/main.69331cdb.css.map",
-    "main.906999ed.js.map": "/robocup-web-app/static/js/main.906999ed.js.map",
+    "main.b083da9f.js.map": "/robocup-web-app/static/js/main.b083da9f.js.map",
     "453.92ad2d4b.chunk.js.map": "/robocup-web-app/static/js/453.92ad2d4b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69331cdb.css",
-    "static/js/main.906999ed.js"
+    "static/js/main.b083da9f.js"
   ]
 }
