@@ -3,7 +3,7 @@ import "./style.css";
 import "../style.css";
 import soccerLW1 from "../../../assets/images/leagues/native/soccer-lw-1.jpg";
 import soccerLW2 from "../../../assets/images/leagues/native/soccer-lw-2.JPG";
-import soccerRule from "../../../assets/files/RCJK2024_soccer_LW_Open_Rule.pdf";
+import soccerRule from "../../../assets/files/RCJK2024_SoccerLW_Open_RuleKR.pdf";
 import { NavLink } from "react-router-dom";
 
 export default function Soccer() {
@@ -11,7 +11,7 @@ export default function Soccer() {
     <Container className="p-3">
       <Row>
         <Col className="shadow border p-2 rounded mb-4">
-          <h1 className="mb-4 fw-semibold">RoboCup Junior Soccer</h1>
+          <h1 className="fw-semibold">RoboCup Junior Soccer</h1>
           <p className="fs-5">
             <span className="d-block">
               &nbsp;외부의 조작 없이 경기가 진행되며 공을 드리블하여 상대의 골대
@@ -34,13 +34,17 @@ export default function Soccer() {
           <Image className="soccer-image rounded" src={soccerLW1} />
           <div className="d-flex justify-content-center">
             <Button variant="light" className="border my-3">
-              <NavLink to={"https://jiuuoo.github.io" + soccerRule}>
+              <NavLink
+                to={"https://jiuuoo.github.io" + soccerRule}
+                target="_blank"
+                className="text-decoration-none text-black fs-6"
+              >
                 규정 살펴보기
               </NavLink>
             </Button>
           </div>
         </Col>
-        <Col lg={6} className="shadow border p-2 rounded mb-4">
+        <Col lg={6} className="shadow border p-2 rounded mb-lg-4">
           <h2 className="fw-semibold">Soccer Open</h2>
           <p className="fs-5">
             &nbsp;주황색 플라스틱 공을 사용하여 경기가 진행됩니다.
@@ -48,7 +52,13 @@ export default function Soccer() {
           <Image className="soccer-image rounded" src={soccerLW2} />
           <div className="d-flex justify-content-center">
             <Button variant="light" className="border my-3">
-              <NavLink to={soccerRule}>규정 살펴보기</NavLink>
+              <NavLink
+                to={"https://jiuuoo.github.io" + soccerRule}
+                target="_blank"
+                className="text-decoration-none text-black fs-6"
+              >
+                규정 살펴보기
+              </NavLink>
             </Button>
           </div>
         </Col>
