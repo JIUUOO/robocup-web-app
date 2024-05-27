@@ -9,7 +9,7 @@ import { NavLink } from "react-router-dom";
 export default function Soccer() {
   return (
     <Container className="">
-      <h1 className="mb-4 fw-semibold">RoboCup Soccer</h1>
+      <h1 className="mb-4 fw-semibold">RoboCup Junior Soccer</h1>
       <p className="fs-5 mb-4">
         <span className="d-block">
           &nbsp;외부의 조작 없이 경기가 진행되며 공을 드리블하여 상대의 골대
