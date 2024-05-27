@@ -1,10 +1,11 @@
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
+import Card from "../card";
 import "./style.css";
 import "../style.css";
 import soccerLW1 from "../../../assets/images/leagues/native/soccer-lw-1.jpg";
 import soccerLW2 from "../../../assets/images/leagues/native/soccer-lw-2.JPG";
 import soccerRule from "../../../assets/files/RCJK2024_SoccerLW_Open_RuleKR.pdf";
-import { NavLink } from "react-router-dom";
 
 export default function Soccer() {
   return (
@@ -28,40 +29,18 @@ export default function Soccer() {
         </Col>
       </Row>
       <Row>
-        <Col lg={6} className="shadow border p-2 rounded mb-4 border-lg-top">
-          <h2 className="fw-semibold">Soccer LightWeight</h2>
-          <p className="fs-5">&nbsp;적외선 공을 사용하여 경기가 진행됩니다.</p>
-          <Image className="soccer-image rounded" src={soccerLW1} />
-          <div className="d-flex justify-content-center">
-            <Button variant="light" className="border my-3">
-              <NavLink
-                to={"https://jiuuoo.github.io" + soccerRule}
-                target="_blank"
-                className="text-decoration-none text-black fs-6"
-              >
-                규정 살펴보기
-              </NavLink>
-            </Button>
-          </div>
-        </Col>
-        <Col lg={6} className="shadow border p-2 rounded mb-lg-4">
-          <h2 className="fw-semibold">Soccer Open</h2>
-          <p className="fs-5">
-            &nbsp;주황색 플라스틱 공을 사용하여 경기가 진행됩니다.
-          </p>
-          <Image className="soccer-image rounded" src={soccerLW2} />
-          <div className="d-flex justify-content-center">
-            <Button variant="light" className="border my-3">
-              <NavLink
-                to={"https://jiuuoo.github.io" + soccerRule}
-                target="_blank"
-                className="text-decoration-none text-black fs-6"
-              >
-                규정 살펴보기
-              </NavLink>
-            </Button>
-          </div>
-        </Col>
+        <Card
+          title="Soccer LightWeight"
+          subtitle="적외선 공을 사용하여 경기가 진행됩니다."
+          image={soccerLW1}
+          ruleSrc={soccerRule}
+        />
+        <Card
+          title="Soccer Open"
+          subtitle="주황색 플라스틱 공을 사용하여 경기가 진행됩니다."
+          image={soccerLW2}
+          ruleSrc={soccerRule}
+        />
       </Row>
     </Container>
   );
