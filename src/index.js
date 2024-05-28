@@ -3,15 +3,20 @@ import ReactDOM from "react-dom/client";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/styles/app.css";
 import App from "./App";
-import { HashRouter } from "react-router-dom";
+import { RouterProvider } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
+
+const router = createHashRouter([
+  {
+    path: "/*",
+    element: <App />,
+  },
+]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <HashRouter>
-      <App />
-    </HashRouter>
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
