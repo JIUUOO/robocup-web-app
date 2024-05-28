@@ -97,10 +97,10 @@ export default function Header() {
                 RoboCup
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link to="/#/notice" href="/#/notice">
+            <Nav.Link as={NavLink} to="/notice" href="/#/notice">
               공지사항
             </Nav.Link>
-            <Nav.Link to="/#/sponser" href="/#/sponser">
+            <Nav.Link as={NavLink} to="/sponser" href="/#/sponser">
               후원문의
             </Nav.Link>
           </Nav>
