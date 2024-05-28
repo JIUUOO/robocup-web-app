@@ -13,7 +13,6 @@ export default function Soccer() {
     <Container className="p-3">
       <Row className="justify-content-evenly">
         <CardLg
-          col="11"
           title="RoboCup Junior Soccer"
           description={[
             "외부의 조작 없이 로봇 스스로 공을 드리블하여 상대의 골대 안으로 넣는 로봇 축구 경기입니다.",
@@ -23,6 +22,8 @@ export default function Soccer() {
             "로봇은 다양한 센서를 사용해 주변의 환경을 탐지해야 합니다.",
           ]}
         />
+      </Row>
+      <Row className="justify-content-evenly">
         <CardSm
           title="Soccer LightWeight"
           description={["적외선 공을 사용하여 경기가 진행됩니다."]}

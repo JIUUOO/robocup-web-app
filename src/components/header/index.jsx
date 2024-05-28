@@ -1,4 +1,6 @@
 import rckaLogo from "../../assets/images/logo/robocup-korea-association.png";
+import rcLogo from "../../assets/images/logo/robocup-logo.png";
+import rcjLogo from "../../assets/images/logo/robocup-junior-logo.jpg";
 import "./style.css";
 import { NavLink } from "react-router-dom";
 import { Container, Nav, Navbar, NavDropdown, Image } from "react-bootstrap";
@@ -8,7 +10,7 @@ export default function Header() {
     <Navbar
       collapseOnSelect
       expand="md"
-      className="navbar shadow fs-6"
+      className="navbar shadow-sm fs-6"
       fixed="top"
     >
       <Container>
@@ -73,7 +75,6 @@ export default function Header() {
               >
                 OnStage
               </NavDropdown.Item>
-              {/* <NavDropdown.Item>Spike</NavDropdown.Item> */}
             </NavDropdown>
             <NavDropdown title="로보컵 리그" id="basic-nav-dropdown">
               <NavDropdown.Item as={NavLink} to="/news" href="/news">
