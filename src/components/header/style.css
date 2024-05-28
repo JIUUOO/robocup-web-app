@@ -5,11 +5,6 @@
 }
 
 /* overriding */
-.navbar-nav {
-  font-size: 1rem;
-}
-
-/* overriding */
 .dropdown-menu {
   text-align: center;
   min-width: 5.5rem;

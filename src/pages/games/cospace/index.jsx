@@ -8,16 +8,14 @@ import cospaceRescueRule from "../../../assets/files/RCJK2024_CospaceRescue_Rule
 export default function Cospace() {
   return (
     <Container className="p-3">
-      <Row>
+      <Row className="justify-content-evenly">
         <CardLg
-          title="RoboCup CoSpace"
+          title="RoboCup Junior CoSpace"
           description={["가상의 공간에서 주행해요"]}
         />
-      </Row>
-      <Row className="justify-content-center">
         <CardSm
           title="CoSpace Rescue"
-          subtitle="레스큐"
+          description={["레스큐"]}
           image={cospaceRescue}
           ruleSrc={cospaceRescueRule}
         />

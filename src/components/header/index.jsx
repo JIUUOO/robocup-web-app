@@ -5,7 +5,12 @@ import { Container, Nav, Navbar, NavDropdown, Image } from "react-bootstrap";
 
 export default function Header() {
   return (
-    <Navbar collapseOnSelect expand="md" className="navbar shadow" fixed="top">
+    <Navbar
+      collapseOnSelect
+      expand="md"
+      className="navbar shadow fs-6"
+      fixed="top"
+    >
       <Container>
         <Navbar.Brand>
           <NavLink to="/">

@@ -31,7 +31,7 @@ export default function Intro() {
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
-          <Accordion.Header>로보컵 리는 어떤 행사인가요?</Accordion.Header>
+          <Accordion.Header>로보컵 리그는 어떤 행사인가요?</Accordion.Header>
           <Accordion.Body className="text-start">
             <p className="fs-6 d-block">
               &nbsp;로보컵 리그의 설립목적은 양질의 다양한 로봇교육 제공에
