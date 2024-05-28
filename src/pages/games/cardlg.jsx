@@ -1,5 +1,4 @@
-import { Col, Image, Button } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
+import { Col } from "react-bootstrap";
 
 export default function CardLg({ col = 5, title, description }) {
   const descriptions = description.map((el) => {

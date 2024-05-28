@@ -4,6 +4,9 @@ import Home from "./pages/home";
 import About from "./pages/association/about";
 import Committee from "./pages/association/committee";
 import Archive from "./pages/association/archive";
+import News from "./pages/news";
+import Notice from "./pages/notice";
+import Sponser from "./pages/sponser";
 
 import Soccer from "./pages/games/soccer";
 import Rescue from "./pages/games/rescue";
@@ -19,7 +22,7 @@ function App() {
       <Header />
       <div className="header-padding"></div>
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/association/about" element={<About />} />
         <Route path="/association/committee" element={<Committee />} />
         <Route path="/association/archive" element={<Archive />} />
@@ -28,6 +31,10 @@ function App() {
         <Route path="/games/rescue" element={<Rescue />} />
         <Route path="/games/cospace" element={<CoSpace />} />
         <Route path="/games/onstage" element={<OnStage />} />
+
+        <Route path="/news" element={<News />} />
+        <Route path="/notice" element={<Notice />} />
+        <Route path="/sponser" element={<Sponser />} />
       </Routes>
       <Footer />
     </div>

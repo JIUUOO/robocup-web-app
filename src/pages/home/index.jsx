@@ -1,4 +1,3 @@
-import { Container } from "react-bootstrap";
 import Screen from "./screen";
 import Title from "./title";
 import Intro from "./intro";
