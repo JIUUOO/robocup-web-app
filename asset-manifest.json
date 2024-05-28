@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/robocup-web-app/static/css/main.dea15c5f.css",
-    "main.js": "/robocup-web-app/static/js/main.10753d0b.js",
+    "main.css": "/robocup-web-app/static/css/main.adcede1d.css",
+    "main.js": "/robocup-web-app/static/js/main.358374af.js",
     "static/js/453.92ad2d4b.chunk.js": "/robocup-web-app/static/js/453.92ad2d4b.chunk.js",
     "static/media/soccer.gif": "/robocup-web-app/static/media/soccer.938bc4fe5335403725cd.gif",
     "static/media/soccer-lw-2.JPG": "/robocup-web-app/static/media/soccer-lw-2.d2d50089f268fe19f403.JPG",
@@ -19,18 +19,20 @@
     "static/media/rescue-basic-1.JPG": "/robocup-web-app/static/media/rescue-basic-1.c900d7e92d6cbd0816fd.JPG",
     "static/media/misintry-of-trade-industry-and-energy.jpg": "/robocup-web-app/static/media/misintry-of-trade-industry-and-energy.47e7622bfeff2d4fa9bc.jpg",
     "static/media/rc-open-2024.png": "/robocup-web-app/static/media/rc-open-2024.377d53d5fd4bc4536e4b.png",
+    "static/media/robocup-logo.png": "/robocup-web-app/static/media/robocup-logo.78add8d2b865d0ab5709.png",
     "static/media/coding-2023.jpg": "/robocup-web-app/static/media/coding-2023.97c855bef95235069412.jpg",
     "static/media/anti-corruption-and-civil-rights-commission.jpg": "/robocup-web-app/static/media/anti-corruption-and-civil-rights-commission.0465ddd26e40694764fd.jpg",
     "static/media/national-tax-service.jpg": "/robocup-web-app/static/media/national-tax-service.d51fc25d0220a51b3c35.jpg",
     "static/media/rcap-2023-2.jpg": "/robocup-web-app/static/media/rcap-2023-2.861b9c71c9e6000a7437.jpg",
     "static/media/robocup-korea-association.png": "/robocup-web-app/static/media/robocup-korea-association.040bea43245905792f65.png",
+    "static/media/robocup-junior-logo.jpg": "/robocup-web-app/static/media/robocup-junior-logo.5b1cdaeb8c544e796ffe.jpg",
     "index.html": "/robocup-web-app/index.html",
-    "main.dea15c5f.css.map": "/robocup-web-app/static/css/main.dea15c5f.css.map",
-    "main.10753d0b.js.map": "/robocup-web-app/static/js/main.10753d0b.js.map",
+    "main.adcede1d.css.map": "/robocup-web-app/static/css/main.adcede1d.css.map",
+    "main.358374af.js.map": "/robocup-web-app/static/js/main.358374af.js.map",
     "453.92ad2d4b.chunk.js.map": "/robocup-web-app/static/js/453.92ad2d4b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dea15c5f.css",
-    "static/js/main.10753d0b.js"
+    "static/css/main.adcede1d.css",
+    "static/js/main.358374af.js"
   ]
 }
