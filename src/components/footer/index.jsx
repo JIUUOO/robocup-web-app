@@ -6,8 +6,8 @@ import "./style.css";
 
 export default function Footer() {
   return (
-    <div>
-      <Container className="mt-5">
+    <div className="border-top mt-5">
+      <Container className="my-3">
         <Row className="institutes mx-auto">
           <Col
             md={4}
@@ -30,7 +30,7 @@ export default function Footer() {
         </Row>
       </Container>
       <div className="bg-dark">
-        <Container className="p-0 mt-3 py-3 py-md-4 text-center text-md-end text-white">
+        <Container className="p-0 py-3 py-md-4 text-center text-md-end text-white">
           <p>
             <span className="d-block">
               <strong>한국로보컵협회</strong> | Tel : 070-4247-7485
