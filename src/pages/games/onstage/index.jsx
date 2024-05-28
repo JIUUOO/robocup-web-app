@@ -10,9 +10,8 @@ export default function Rescue() {
       <Row>
         <CardLg title="RoboCup Junior OnStage" description={[""]} />
       </Row>
-      <Row>
+      <Row className="justify-content-center">
         <CardSm
-          grid="12"
           title="Onstage"
           subtitle="무대 공연"
           image={""}

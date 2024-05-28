@@ -14,9 +14,8 @@ export default function Cospace() {
           description={["가상의 공간에서 주행해요"]}
         />
       </Row>
-      <Row>
+      <Row className="justify-content-center">
         <CardSm
-          grid="12"
           title="CoSpace Rescue"
           subtitle="레스큐"
           image={cospaceRescue}

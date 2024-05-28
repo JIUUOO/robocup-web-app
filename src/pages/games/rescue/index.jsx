@@ -21,23 +21,20 @@ export default function Rescue() {
           ]}
         />
       </Row>
-      <Row>
+      <Row className="justify-content-center">
         <CardSm
-          grid="4"
           title="Rescue Basic"
           subtitle="베이직"
           image={rescueBasic1}
           ruleSrc={rescueBasicRule}
         />
         <CardSm
-          grid="4"
           title="Rescue Line"
           subtitle="라인"
           image={rescueLine1}
           ruleSrc={rescueLineRule}
         />
         <CardSm
-          grid="4"
           title="Rescue Maze Entry"
           subtitle="미로"
           image={""}

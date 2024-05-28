@@ -1,9 +1,9 @@
 import { Col, Image, Button } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
-export default function CardSm({ grid, title, subtitle, image, ruleSrc }) {
+export default function CardSm({ col = 6, title, subtitle, image, ruleSrc }) {
   return (
-    <Col lg={grid} className="shadow border p-2 rounded mb-4">
+    <Col lg={col} className="shadow border p-2 rounded mb-4">
       <h2 className="fw-semibold">{title}</h2>
       <p className="fs-5">&nbsp;{subtitle}</p>
       <Image className="leaguesImage rounded" src={image} fluid />
