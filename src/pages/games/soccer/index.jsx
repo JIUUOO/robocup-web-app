@@ -22,12 +22,14 @@ export default function Soccer() {
       </Row>
       <Row>
         <CardSm
+          grid="6"
           title="Soccer LightWeight"
           subtitle="적외선 공을 사용하여 경기가 진행됩니다."
           image={soccerLW1}
           ruleSrc={soccerRule}
         />
         <CardSm
+          grid="6"
           title="Soccer Open"
           subtitle="주황색 플라스틱 공을 사용하여 경기가 진행됩니다."
           image={soccerLW2}
