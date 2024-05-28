@@ -1,4 +1,4 @@
-import { Container, Row, Col, Image, Button } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import CardLg from "../cardlg";
 import CardSm from "../cardsm";
 import "./style.css";
