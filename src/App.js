@@ -19,7 +19,7 @@ function App() {
       <Header />
       <div className="header-padding"></div>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         <Route path="/association/about" element={<About />} />
         <Route path="/association/committee" element={<Committee />} />
         <Route path="/association/archive" element={<Archive />} />
