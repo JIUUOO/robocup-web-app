@@ -14,9 +14,9 @@ export default function CardSm({
   return (
     <Col
       lg={col}
-      className="shadow border p-0 cardsm-bg my-2 mb-lg-5 rounded overflow-hidden"
+      className="shadow border p-0 bg-dark my-2 mb-lg-5 rounded overflow-hidden"
     >
-      <div className="p-3 py-2">
+      <div className="p-3 py-2 text-white">
         <h2 className="fw-semibold">{title}</h2>
       </div>
       <div className="rounded p-3 pt-2 bg-white h-100">
