@@ -4,13 +4,29 @@ export default function CardLg({ col = 5, title, description }) {
   const descriptions = description.map((el) => {
     return <span className="d-block py-1">&nbsp;{el}</span>;
   });
+
+  const decorateTitle = (title) => {
+    const league = "RoboCup ";
+    const sector = "Junior ";
+    return (
+      <span>
+        <span className="text-black fw-bold">
+          {title.includes(league) ? league : ""}
+        </span>
+        <span className="text-black fw-bold">
+          {title.includes(sector) ? sector : ""}
+        </span>
+        {title.replace(league, "").replace(sector, "")}
+      </span>
+    );
+  };
   return (
     <Col
       lg={col}
       className="shadow border p-0 bg-primary bg-gradient mt-0 my-lg-2 mb-lg-5 rounded overflow-hidden"
     >
       <div className="p-3 py-2">
-        <h1 className="fw-semibold fs-1 text-white">{title}</h1>
+        <h1 className="fw-semibold fs-1 text-white">{decorateTitle(title)}</h1>
       </div>
       <div className="rounded p-3 pt-2 bg-light h-100">
         <p className="fs-5">{descriptions}</p>
