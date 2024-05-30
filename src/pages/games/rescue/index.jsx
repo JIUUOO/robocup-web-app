@@ -40,7 +40,7 @@ export default function Rescue() {
         />
         <CardSm
           title="Rescue Maze Entry"
-          description={["미로"]}
+          description={["[설명]"]}
           image={""}
           ruleSrc={rescueMazeRule}
         />

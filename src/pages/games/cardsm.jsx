@@ -19,11 +19,11 @@ export default function CardSm({
       <div className="p-3 py-2 text-white">
         <h2 className="fw-semibold">{title}</h2>
       </div>
-      <div className="rounded p-3 pt-2 bg-white h-100">
+      <div className="rounded p-3 pt-2 bg-light h-100">
         <p className="fs-5">{descriptions}</p>
         <Image className="leaguesImage rounded" src={image} fluid />
         <div className="d-flex justify-content-center">
-          <Button variant="white" className="border my-3">
+          <Button variant="light" className="border border-dark my-3">
             <NavLink
               to={"https://jiuuoo.github.io" + ruleSrc}
               target="_blank"

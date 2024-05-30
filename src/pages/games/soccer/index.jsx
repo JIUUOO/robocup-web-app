@@ -39,10 +39,10 @@ export default function Soccer() {
       </Row>
 
       <Row className="justify-content-evenly mt-5">
-        <CardLg title="RoboCup Soccer" description={["휴머노이드!"]} />
+        <CardLg title="RoboCup Soccer" description={["[설명]"]} />
         <CardSm
-          title="Soccer LightWeight"
-          description={["축구공!"]}
+          title="Soccer Humanoid"
+          description={["[설명]"]}
           image={soccer}
           ruleSrc={""}
         />

@@ -12,7 +12,7 @@ export default function CardLg({ col = 5, title, description }) {
       <div className="p-3 py-2">
         <h1 className="fw-semibold fs-1 text-white">{title}</h1>
       </div>
-      <div className="rounded p-3 pt-2 bg-white h-100">
+      <div className="rounded p-3 pt-2 bg-light h-100">
         <p className="fs-5">{descriptions}</p>
       </div>
     </Col>
