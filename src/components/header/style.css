@@ -1,8 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+
 /* overriding */
 .navbar {
   padding: 0;
   background-color: white;
 }
+
+.nav-link {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 800;
+  font-size: 1.05rem;
+}
+
+/* .nav-link:hover {
+  background-color: rgba(33, 37, 41, 0.09);
+} */
 
 /* overriding */
 .dropdown-menu {
@@ -13,9 +25,9 @@
 }
 
 /* overriding */
-.dropdown-item {
+/* .dropdown-item {
   font-weight: 500;
-}
+} */
 
 .logo {
   max-height: 4rem;
