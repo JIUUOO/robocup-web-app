@@ -10,10 +10,10 @@ export default function CardLg({ col = 5, title, description }) {
     const sector = "Junior ";
     return (
       <span>
-        <span className="text-black fw-bold">
+        <span className="text-black fw-bolder">
           {title.includes(league) ? league : ""}
         </span>
-        <span className="text-black fw-bold">
+        <span className="text-black fw-bolder">
           {title.includes(sector) ? sector : ""}
         </span>
         {title.replace(league, "").replace(sector, "")}
