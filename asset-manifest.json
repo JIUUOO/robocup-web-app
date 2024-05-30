@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/robocup-web-app/static/css/main.dea15c5f.css",
-    "main.js": "/robocup-web-app/static/js/main.7be68fc8.js",
+    "main.js": "/robocup-web-app/static/js/main.af31a5e5.js",
     "static/js/453.92ad2d4b.chunk.js": "/robocup-web-app/static/js/453.92ad2d4b.chunk.js",
     "static/media/soccer.gif": "/robocup-web-app/static/media/soccer.938bc4fe5335403725cd.gif",
     "static/media/soccer-lw-2.JPG": "/robocup-web-app/static/media/soccer-lw-2.d2d50089f268fe19f403.JPG",
@@ -16,6 +16,7 @@
     "static/media/RCJK2024_RescueBasic_RuleKR.pdf": "/robocup-web-app/static/media/RCJK2024_RescueBasic_RuleKR.a1e277eeb59804a5dee5.pdf",
     "static/media/RCJK2024_OnStage_RuleKR.pdf": "/robocup-web-app/static/media/RCJK2024_OnStage_RuleKR.bfe382b84d6ed4005db2.pdf",
     "static/media/rcap-2023-1.png": "/robocup-web-app/static/media/rcap-2023-1.eb81b31b1de503ae07a1.png",
+    "static/media/RCJK2024_AutonomousDriving_RuleKR.pdf": "/robocup-web-app/static/media/RCJK2024_AutonomousDriving_RuleKR.bacf4af3ce5ec3fefe3c.pdf",
     "static/media/rescue-basic-1.JPG": "/robocup-web-app/static/media/rescue-basic-1.c900d7e92d6cbd0816fd.JPG",
     "static/media/misintry-of-trade-industry-and-energy.jpg": "/robocup-web-app/static/media/misintry-of-trade-industry-and-energy.47e7622bfeff2d4fa9bc.jpg",
     "static/media/rc-open-2024.png": "/robocup-web-app/static/media/rc-open-2024.377d53d5fd4bc4536e4b.png",
@@ -28,11 +29,11 @@
     "static/media/robocup-junior-logo.jpg": "/robocup-web-app/static/media/robocup-junior-logo.5b1cdaeb8c544e796ffe.jpg",
     "index.html": "/robocup-web-app/index.html",
     "main.dea15c5f.css.map": "/robocup-web-app/static/css/main.dea15c5f.css.map",
-    "main.7be68fc8.js.map": "/robocup-web-app/static/js/main.7be68fc8.js.map",
+    "main.af31a5e5.js.map": "/robocup-web-app/static/js/main.af31a5e5.js.map",
     "453.92ad2d4b.chunk.js.map": "/robocup-web-app/static/js/453.92ad2d4b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dea15c5f.css",
-    "static/js/main.7be68fc8.js"
+    "static/js/main.af31a5e5.js"
   ]
 }
