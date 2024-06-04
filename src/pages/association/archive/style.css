@@ -1,5 +1,5 @@
 .archive-banner-content {
-  max-width: 95%;
-  min-height: 15rem;
+  min-width: 90%;
+  aspect-ratio: 16/ 10;
   object-fit: cover;
 }

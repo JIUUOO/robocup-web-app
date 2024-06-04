@@ -1,9 +1,3 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Noto Sans KR", sans-serif;
-}
-
 .header-padding {
   margin-top: calc(4rem + 10px);
   margin-bottom: 6rem;
@@ -23,3 +17,13 @@ body {
     font-size: 16px !important;
   }
 }
+
+@import "./base/typography";
+
+@import "./components/topNavbar";
+
+// @import "./pages/";
+
+@import "./themes/theme";
+
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";

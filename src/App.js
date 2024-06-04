@@ -15,7 +15,6 @@ import CoSpace from "./pages/games/cospace";
 import OnStage from "./pages/games/onstage";
 
 import Footer from "./components/footer";
-import "../src/assets/styles/app.css";
 
 function App() {
   return (

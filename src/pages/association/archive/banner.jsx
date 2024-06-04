@@ -1,10 +1,10 @@
-import { Image, Row } from "react-bootstrap";
+import { Image, Row, Col } from "react-bootstrap";
 import "./style.css";
 
 export default function Banner({ src }) {
   return (
-    <Row className="d-flex justify-content-center align-items-center p-1 my-3 rounded">
+    <Col className="d-flex justify-content-center align-items-center">
       <Image className="archive-banner-content" src={src} rounded />
-    </Row>
+    </Col>
   );
 }
