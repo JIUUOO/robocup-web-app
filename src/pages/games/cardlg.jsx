@@ -29,7 +29,9 @@ export default function CardLg({ col = 5, title, description }) {
         <h1 className="fw-semibold fs-1 text-white">{decorateTitle(title)}</h1>
       </div>
       <div className="rounded p-3 pt-2 bg-light h-100">
-        <p className="fs-5">{descriptions}</p>
+        <p className="fs-5">
+          <span className="fs-5--description">{descriptions}</span>
+        </p>
       </div>
     </Col>
     //     <Col

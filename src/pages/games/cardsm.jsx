@@ -20,7 +20,9 @@ export default function CardSm({
         <h2 className="fw-semibold">{title}</h2>
       </div>
       <div className="rounded p-3 pt-2 bg-light h-100">
-        <p className="fs-5">{descriptions}</p>
+        <p className="fs-5">
+          <span className="fs-5--description">{descriptions}</span>
+        </p>
         <Image className="leaguesImage rounded" src={image} fluid />
         <div className="d-flex justify-content-center">
           <Button variant="light" className="border border-dark my-3">

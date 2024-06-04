@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import Header from "./components/header";
+import NavMenu from "./components/NavMenu";
 import ScrollToTop from "./components/scrolltotop";
 import Home from "./pages/home";
 import About from "./pages/association/about";
@@ -19,7 +19,7 @@ import Footer from "./components/footer";
 function App() {
   return (
     <div className="App">
-      <Header />
+      <NavMenu />
       <div className="header-padding"></div>
       <ScrollToTop />
       <Routes>

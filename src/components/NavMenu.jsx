@@ -1,11 +1,10 @@
-import rckaLogo from "../../assets/images/logo/robocup-korea-association.png";
-import rcLogo from "../../assets/images/logo/robocup-logo.png";
-import rcjLogo from "../../assets/images/logo/robocup-junior-logo.jpg";
-import "./style.css";
+import rckaLogo from "../assets/images/logo/robocup-korea-association.png";
+import rcLogo from "../assets/images/logo/robocup-logo.png";
+import rcjLogo from "../assets/images/logo/robocup-junior-logo.jpg";
 import { NavLink } from "react-router-dom";
 import { Container, Nav, Navbar, NavDropdown, Image } from "react-bootstrap";
 
-export default function Header() {
+export default function NavMenu() {
   return (
     <Navbar
       collapseOnSelect
